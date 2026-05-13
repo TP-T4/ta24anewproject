@@ -7,4 +7,4 @@ import RouterTabs from './components/RouterTabs.vue';
 <template>
     <RouterTabs></RouterTabs>
     <RouterView></RouterView>
-</template>
+</template> 
