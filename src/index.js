@@ -8,6 +8,8 @@ import Validation from './pages/Validation.vue'
 import ChuckNorris from './pages/ChuckNorris.vue'
 import RickandMorty from './pages/RickandMorty.vue'
 import CanvasExample from './pages/CanvasExample.vue'
+import WebApis from './pages/WebApis.vue'
+import LeafletMap from './pages/LeafletMap.vue'
 
 import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 
@@ -18,7 +20,9 @@ const routes = [
   { path: '/button', component: Validation, name: 'Button' },
   { path: '/chucknorris', component: ChuckNorris, name: 'Chuck' },
   { path: '/rickandmorty', component: RickandMorty, name: 'Rick and Morty' },
-  { path: '/canvas', component: CanvasExample, name: 'Canvas Example' }
+  { path: '/canvas', component: CanvasExample, name: 'Canvas Example' },
+  { path: '/webapis', component: WebApis, name: 'Web APIs' },
+  { path: '/map', component: LeafletMap, name: 'Leaflet Map' }
 ]
 
 export const router = createRouter({
