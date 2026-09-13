@@ -10,6 +10,7 @@ import RickandMorty from './pages/RickandMorty.vue'
 import CanvasExample from './pages/CanvasExample.vue'
 import WebApis from './pages/WebApis.vue'
 import LeafletMap from './pages/LeafletMap.vue'
+import Chat from './pages/Chat.vue'
 
 import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 
@@ -22,7 +23,8 @@ const routes = [
   { path: '/rickandmorty', component: RickandMorty, name: 'Rick and Morty' },
   { path: '/canvas', component: CanvasExample, name: 'Canvas Example' },
   { path: '/webapis', component: WebApis, name: 'Web APIs' },
-  { path: '/map', component: LeafletMap, name: 'Leaflet Map' }
+  { path: '/map', component: LeafletMap, name: 'Leaflet Map' },
+  { path: '/chat', component: Chat, name: 'Chat' }
 ]
 
 export const router = createRouter({
