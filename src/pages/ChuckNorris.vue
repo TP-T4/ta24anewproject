@@ -3,11 +3,10 @@ import { ref } from 'vue';
 
 let joke = ref('')
 
-const req = fetch('https://api.chucknorris.io/jokes/random')
-    .then(res => res.json())
-    .then(data => {
+const res = await axios.get("https://api.chucknorris.io/jokes/random")
+        joke.value = res.data.value
         joke.value = data.value
-    })
+    
 </script>
 
 <template>
