@@ -1,4 +1,3 @@
-# ta24anewproject
 AJAX/JS
 
 Algeline:
@@ -8,6 +7,6 @@ cd Documents/github/sinurepo
 bun init
 bun add vitejs/plugin-vue axios boxen bulma sass vite vue vue-router
 
-Käivitamine:
+Käivitamine: 
 Bunx vite
 bun run dev

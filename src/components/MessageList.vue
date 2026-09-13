@@ -1,5 +1,5 @@
 <script setup>
-import Message from './Message.vue';
+import Message from './Messages.vue';
 
 defineProps({
     messages: {

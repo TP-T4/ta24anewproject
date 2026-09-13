@@ -10,8 +10,8 @@ let marker = ref([59.42695235928513, 24.74360317137484])
 
 <template>
     <button class="is-primary button" @click="
-        center = [31.945826, 35.201027]; 
-        marker = [31.945826, 35.201027];">  
+        center = [31.524367, 34.886991]; 
+        marker = [31.524367, 34.886991]">
         Go to Israel
     </button>
     <LeafletMap :center="center" :zoom="zoom" :marker="marker"></LeafletMap>

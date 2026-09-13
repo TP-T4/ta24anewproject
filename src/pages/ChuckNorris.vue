@@ -1,14 +1,11 @@
 <script setup>
 import { ref } from 'vue';
+import axios from 'axios';
 
 let joke = ref('')
 
-import axios from 'axios'
-
 const res = await axios.get("https://api.chucknorris.io/jokes/random")
-        joke.value = res.data.value
-        joke.value = data.value
-    
+joke.value = res.data.value
 </script>
 
 <template>

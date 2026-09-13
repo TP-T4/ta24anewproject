@@ -28,7 +28,7 @@ const props = defineProps({
             ].includes(value);
         },
         default: 'large'
-    } 
+    } //Jah, ma julmalt kopeerisin selle messageist
 });
 
 let classes = '';
