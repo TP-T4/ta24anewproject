@@ -3,16 +3,11 @@ import { ref } from 'vue';
 
 let joke = ref('')
 
-function reqListener() {
-    let data = JSON.parse(this.responseText);
-    joke.value = data.value;
-    console.log(data.value);
-}
-
-const req = new XMLHttpRequest();
-req.addEventListener("load", reqListener);
-req.open("GET", "https://api.chucknorris.io/jokes/random");
-req.send();
+const req = fetch('https://api.chucknorris.io/jokes/random')
+    .then(res => res.json())
+    .then(data => {
+        joke.value = data.value
+    })
 </script>
 
 <template>
