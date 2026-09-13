@@ -10,3 +10,6 @@ bun add vitejs/plugin-vue axios boxen bulma sass vite vue vue-router
 Käivitamine: 
 Bunx vite
 bun run dev
+
+
+????
