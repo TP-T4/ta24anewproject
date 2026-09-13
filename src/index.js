@@ -6,6 +6,7 @@ import Modals from './pages/Modals.vue'
 import Messages from './pages/messages.vue'
 import Validation from './pages/Validation.vue'
 import ChuckNorris from './pages/ChuckNorris.vue'
+import RickandMorty from './pages/RickandMorty.vue'
 
 import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
 
@@ -16,6 +17,7 @@ const routes = [
   { path: '/validation', component: Validation, name: 'Validation' },
   { path: '/validation', component: Validation, name: 'Button' },
   { path: '/chucknorris', component: ChuckNorris, name: 'Chuck' },
+  { path: '/rickandmorty', component: RickandMorty, name: 'Rick and Morty' },
 ]
 
 export const router = createRouter({
