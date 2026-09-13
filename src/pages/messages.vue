@@ -1,7 +1,6 @@
 <script setup>
 import Message from '../components/Messages.vue'
 
-
 </script>
 
 <template>
